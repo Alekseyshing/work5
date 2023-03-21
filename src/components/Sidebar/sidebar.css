@@ -1,0 +1,37 @@
+.sidebar {
+  position: static;
+  z-index: 100;
+  max-width: 256px;
+  background-color: #FFF;
+  height: 100%;
+  min-height: 100vh;
+  padding: 30px 25px;
+}
+
+.sidebar_logo {
+  margin-bottom:43px;
+}
+
+.nav_list {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.nav_list--item {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.inactive {
+  font-family: Roboto-Medium, sans-serif;
+  font-size: 14px;
+  color: #7D7D7D;
+}
+
+.active {
+  font-family: Roboto-Medium, sans-serif;
+  font-size: 14px;
+  color: #343434;
+}

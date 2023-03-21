@@ -1,0 +1,64 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  min-height: 65px;
+}
+
+.header_text {
+  display: flex;
+  flex-direction: row;
+  align-items: top;
+  gap: 6px;
+  font-color: #656565;
+  font-family: Roboto-Medium;
+  font-size: 12px;
+  line-height: 21px;
+  max-height: 22px;
+}
+
+.header_right {
+  display: flex;
+  gap: 16px;
+}
+
+.header_arrow {
+  align-self: center;
+}
+
+.header_mail {
+  max-width: 65px;
+  max-height: 65px;
+  padding: 0;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+}
+
+.header_user {
+  display: flex;
+  padding: 12px 19px;
+  align-items: center;
+  gap: 18px;
+  background: #fff;
+  border-radius: 16px;
+  width: 256px;
+  height: 65px;
+  box-shadow: 0px 0px 16px 0px #88A7F52E;
+}
+
+.header_user--avatar {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  background-color: #D9D9D9;
+  background-image: url('../../assets/avatar.png');
+  background-size: cover;
+  background-position: top;
+}
+
+.header_user--name {
+  font-family: Roboto-Regular;
+  font-color: #7D7D7D;
+  font-size: 14px;
+  line-height: 21px;
+}

@@ -1,0 +1,41 @@
+.mytable {
+  min-width: 1001px;
+  overflow-x: auto;
+  background: #fff;
+  border-radius: 21px;
+  padding: 27px 31px 34px 31px;
+}
+
+.table {
+  overflow-x: auto;
+  border-spacing: 19px;
+  margin-bottom: 0;
+}
+
+.mytable_buttons {
+  display: flex;
+  gap: 10px;
+}
+
+
+.table_th {
+  text-align: left;
+  font-family: Roboto-Medium;
+  font-size: 14px;
+  font-weight: 500;
+  color: #343434;
+  border: none;
+}
+
+tr {
+  font-family: Roboto-Regular;
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: normal;
+  color:#6E6E6E;
+  border: none;
+}
+
+tr:not(:last-child) {
+  border-bottom: 1px solid #B1B1B1;
+}

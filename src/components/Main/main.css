@@ -1,0 +1,79 @@
+.main_title {
+  display: block;
+  font-family: Roboto-Medium;
+  font-size: 20px;
+  margin-bottom: 25px;
+}
+
+.modal_title {
+  font-size: 20px;
+  line-height: 21px;
+  font-family: Roboto-Medium;
+  font-weight: normal;
+  color: #343434;
+}
+
+.modal_inputs,
+.modal_warning,
+.modal_buttons,
+.modal_input {
+  display: flex;
+}
+
+.modal_warning {
+  margin-bottom: 44px;
+  gap: 16px;
+}
+
+.modal_inputs {
+  margin-bottom: 30px;
+  gap: 87px;
+}
+
+.modal_input {
+  flex-direction: column;
+}
+.modal_buttons{
+  gap: 10px;
+}
+
+.modal_inputs--title {
+  margin-bottom: 11px;
+  font-family: Roboto-Medium;
+  color: #343434;
+  font-size: 14px;
+  line-height: 21px;
+}
+
+#basic-addon2 {
+  color: #fff;
+  font-family: Roboto-Regular;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 21px;
+  background-color: #6666CC;
+}
+
+#basic-addon3 {
+  color: #7D7D7D;
+  font-family: Roboto-Regular;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 21px;
+  background: #E6E6E9;
+}
+
+.modal_warning--text {
+  max-width: 488px;
+  font-family: Roboto-Regular;
+  font-size: 12px;
+  line-height: 18px;
+  color: #7D7D7D;
+}
+
+@media (max-width: 680px){
+  .modal_inputs {
+    flex-direction: column;
+    gap: 15px;
+  }
+}
