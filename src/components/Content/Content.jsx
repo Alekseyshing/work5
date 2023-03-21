@@ -7,7 +7,7 @@ import Stats from "../../pages/Stats/Stats";
 import Balance from "../../pages/Balance/Balance";
 import Personal from "../../pages/Personal/Personal";
 import Support from "../../pages/Support/Support";
-import Faq from "../../pages/Faq/Faq";
+import Faq from "../../pages/FAQ/Faq";
 
 const Content = () => {
   return (
