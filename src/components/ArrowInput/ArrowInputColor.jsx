@@ -31,7 +31,6 @@ const ArrowInputColor = () => {
             background: 'transparent',
             padding: '10px',
             paddingRight: '30px',
-            fontSize: '16px',
             width: '100%',
             cursor: 'pointer',
             fontFamily: 'Roboto-Regular',
